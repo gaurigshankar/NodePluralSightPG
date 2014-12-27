@@ -14,5 +14,6 @@ var kevin = new Person({
 });
 
 var l = new logger.Logger("warn");
+
 logger.info('Does '+ kevin.firstName +' know kung-fu?');
 logger.info(kevin.knowsKungFu ? 'You better believe it!' : 'Nope.');
